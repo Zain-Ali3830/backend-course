@@ -29,8 +29,6 @@ Imagine you’re a shopkeeper. You don't wait for customers at the door (blockin
 
 Node.js listens for **events** (like file read complete, a request arrived, etc.) and executes **handlers/callbacks** when those events happen.
 
-![eventhandler.png](attachment:a03bdfd4-0de0-4007-9a28-b9fed2820b8d:459dd770-4435-4981-a29f-b3f5c3f7518a.png)
-
 ---
 
 ## 2. 🔁 **Synchronous vs. Asynchronous Behavior**
@@ -68,7 +66,6 @@ console.log("End");
 
 Asynchronous behavior helps Node.js handle **many users or tasks at the same time**, without slowing down.
 
-![image.png](attachment:7bf1c9e2-b23b-43be-92b7-6f95e2d29a73:image.png)
 
 ## 3. 📦 **`require`, `module.exports`, and CommonJS**
 

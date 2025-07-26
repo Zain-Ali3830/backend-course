@@ -1,0 +1,28 @@
+# Ignore build artifacts
+/build/
+/dist/
+*.o
+*.exe
+
+# Ignore dependency directories
+node_modules/
+vendor/
+venv/
+
+# Ignore log files
+*.log
+npm-debug.log
+
+# Ignore sensitive information
+.env
+secrets.txt
+
+# Ignore temporary and system files
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
