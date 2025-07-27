@@ -33,6 +33,8 @@ Mongoose is like a **strict form or template**. It ensures:
 
 - Only expected fields are saved
 - Fields follow specific types (e.g. name must be a string)
+- You can use mongoose when you will use mongodb database .
+- We will bit touch mongoose as we will use postgres .
 ## 2. 🧱 **Designing Schema using Mongoose**
 
 ### 🔹 Basic Schema Structure
