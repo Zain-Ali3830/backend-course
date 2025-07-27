@@ -1,13 +1,11 @@
-Lecture 6: Node.js with PostgreSQL (pg module)
+Lecture 7: Node.js with PostgreSQL (pg module)
+
+
 🎯 Lecture Goals
 By the end of this lecture, students should be able to:
-
 Establish a connection between Node.js and PostgreSQL
-
 Run SQL queries directly from Node.js
-
 Organize database logic using helper functions
-
 Understand and handle asynchronous database operations properly
 
 🧠 Before We Begin:
@@ -27,10 +25,6 @@ dotenv is a Node.js package that lets you store secret values (like passwords, A
 🔍 Why do we use dotenv?
 🚫 Problem Without .env:
 Imagine you connect to your database like this:
-
-js
-Copy
-Edit
 const pool = new Pool({
   user: "postgres",
   password: "2267",     // ❌ Hardcoded sensitive info
@@ -46,15 +40,9 @@ It's risky and bad practice for security.
 ✅ Solution With dotenv:
 You create a .env file like this:
 
-ini
-Copy
-Edit
 PASSWORD=2267
 Then in your code:
 
-js
-Copy
-Edit
 import dotenv from "dotenv";
 dotenv.config();
 
